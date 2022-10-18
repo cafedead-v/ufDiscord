@@ -1,0 +1,5 @@
+{
+  "username": "<<< @{{UserName}} >>>",
+  "avatar_url": "<<< {{UserImageUrl}} >>>",
+  "content": "<<< {{LinkToTweet}} >>>"
+}

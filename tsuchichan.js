@@ -40,22 +40,18 @@ client.on('guildMemberRemove', member => {
 
 //VC通知(メッセージ送信がされない)
 client.on('voiceStateUpdate', (oldState, newState) => {
-	if (newState && oldState) {
-		if (oldState.channelID === null && newState.channelID != null) {
+    if (oldState.channelId === null && newState.channelId !== null) {
 			const connectEmbed = new EmbedBuilder()
 				.setColor(0x9999FF)
 				.setDescription(`${newState.channel.name}に${newState.member.user}が接続しました`)
-				.setThumbnail(member.user.displayAvatarURL)
-			newState.channels.cache.get('992123731277258935').send({ 'embeds': [connectEmbed] });
-			console.log('msg send')
+            .setThumbnail(newState.member.user.displayAvatarURL())
+        newState.guild.channels.cache.get('992123731277258935').send({ 'embeds': [connectEmbed] });
 		}
-		if (oldState.channelID != null && newState.channelID === null) {
+    if (oldState.channelId !== null && newState.channelId === null) {
 			const disconnectEmbed = new EmbedBuilder()
 				.setColor(0x9999FF)
 				.setDescription(`${oldState.channel.name}に${oldState.member.user}が切断しました`)
-				.setThumbnail(member.user.displayAvatarURL)
-			oldState.channels.cache.get('992123731277258935').send({ 'embeds': [disconnectEmbed] });
-			console.log('msg send')
+            .setThumbnail(oldState.member.user.displayAvatarURL())
+        oldState.guild.channels.cache.get('992123731277258935').send({ 'embeds': [disconnectEmbed] });
 		}
-	}
 })
