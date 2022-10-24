@@ -6,7 +6,7 @@ require('dotenv').config();
 const { tsuchichan } = process.env;
 client.login(process.env.tsuchichan);
 client.once('ready', () => {
-	console.log(`ready,logged in as ${client.user.username}!`);
+	console.log(`ready, logged in as ${client.user.username}!`);
 });
 
 //member add
