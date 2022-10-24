@@ -11,17 +11,19 @@ client.once('ready', () => {
 
 //member add
 client.on('guildMemberAdd', member => {
-	member.user.displayAvatarURLconstwelcomeEmbed = newEmbedBuilder().setColor(0x99FFFF).setDescription(`${member.guild.name}に${member.user.username}が参加したよ`).setThumbnail(displayAvatarURL)
+	member.user.displayAvatarURL
+	const welcomeEmbed = new EmbedBuilder().setColor(0x99FFFF).setDescription(`${member.guild.name}に${member.user.username}が参加したよ`).setThumbnail(displayAvatarURL)
 	member.guild.channels.cache.get('992123731277258935').send({ 'embeds': [welcomeEmbed] }); console.log(`${member.guild.name}に${member.user.username}が参加したよ`);
 });
 
 //member removed
 client.on('guildMemberRemove', member => {
-	member.user.displayAvatarURLconstgoodbyeEmbed = newEmbedBuilder().setColor(0x99FFFF).setDescription(`${member.guild.name}から${member.user.username}が退出したよ`).setThumbnail(displayAvatarURL)
+	member.user.displayAvatarURL
+	const goodbyeEmbed = new EmbedBuilder().setColor(0x99FFFF).setDescription(`${member.guild.name}から${member.user.username}が退出したよ`).setThumbnail(displayAvatarURL)
 	member.guild.channels.cache.get('992123731277258935').send({ 'embeds': [goodbyeEmbed] }); console.log(`${member.guild.name}から${member.user.username}が退出したよ`);
 })
 
-//vcstate update
+//vcState update
 client.on('voiceStateUpdate', (oldState, newState) => {
 	if (oldState.channelId === null && newState.channelId !== null) {
 		constconnectEmbed = newEmbedBuilder().setColor(0x99FFFF).setDescription(`${newState.channel.name}に${newState.member.user}が接続したよ`).setThumbnail(newState.member.user.displayAvatarURL())
