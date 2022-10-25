@@ -1,4 +1,4 @@
-const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
+const { Client, GatewayIntentBits, EmbedBuilder, hyperlink, hideLinkEmbed, userMention } = require('discord.js');
 const client = new Client({
 	intents: [
 		GatewayIntentBits.Guilds,
@@ -16,24 +16,45 @@ client.once('ready', () => {
 	console.log(`ready, logged in as ${client.user.username}!`);
 });
 
-client.on('messageCreate', message => {
-	if (message.author.bot || message.system) {
-		return;
-	} else if (message.content === "ping") {
-		message.reply("pong");
-		message.channel.send("pong");
-		console.log("pong");
+// client.on('messageCreate', message => {
+// 	if () {
+// 		return;
+// 	} else if (message.content === "ping") {
+// 		message.reply(hyperlink('discord.js', 'https://discord.js.org/'));
+// 		message.channel.send(hideLinkEmbed('https://discord.js.org/'));
+// 		message.channel.send(userMention('1010465672507162634'));
+// 		console.log("pong");
+// 		client.channels.cache.get('1010465672507162634').send({ "content": "pong", "embeds": [exampleEmbed] });
+// 		client.users.cache.get('1015062677216825384').send("pong");
+// 	}
+// });
+
+const prefix = '!!'
+ client.on('messageCreate', message => {
+   if (!message.content.startsWith(prefix) || message.author.bot || message.system) return;
+   const [command, ...args] = message.content.slice(prefix.length).split(/\s+/)
+   if (command === 'add') {
+     const [a, b] = args.map(str => Number(str))
+     message.channel.send(`${a} + ${b} = ${a + b}`)
+   }
+	 if(command === 'ping'){
+		message.reply(hyperlink('discord.js', 'https://discord.js.org/'));
+		message.channel.send(hideLinkEmbed('https://discord.js.org/'));
+		message.channel.send(userMention('1010465672507162634'));
 		client.channels.cache.get('1010465672507162634').send({ "content": "pong", "embeds": [exampleEmbed] });
 		client.users.cache.get('1015062677216825384').send("pong");
-	}
-});
+		console.log("pong");
+	 }
+ })
 
 const exampleEmbed = new EmbedBuilder()
 	.setColor(0x99FFFF)
 	.setTitle('Some title')
 	.setURL('https://discord.js.org/')
 	.setAuthor({ name: 'Some name', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org' })
-	.setDescription('Some description here')
+	.setDescription(
+		hyperlink('discord.js is here', 'https://discord.js.org/')
+		)
 	.setThumbnail('https://i.imgur.com/AfFp7pu.png')
 	.addFields(
 		{ name: 'Regular field title', value: 'Some value here' },
