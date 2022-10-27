@@ -5,11 +5,12 @@
       "description": "<<< {{About}} >>>",
       "url": "<<< {{LinkToProfile}} >>>",
       "color": 10092543,
-      "footer": {
-        "text": "<<< {{Location}} >>>"
-      },
       "thumbnail": {
-        "url": "<<< {{UserImageUrl}} >>>"
+        "url": "<<< {{UserImageUrl}} >>>",
+      "author": {
+        "name": "@Qiita",
+        "url": "https://qiita.com/Qiita"
+        }
       }
     }
   ]
