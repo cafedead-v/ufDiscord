@@ -16,18 +16,6 @@ client.once('ready', () => {
 	console.log(`ready, logged in as ${client.user.username}!`);
 });
 
-// client.on('messageCreate', message => {
-// 	if () {
-// 		return;
-// 	} else if (message.content === "ping") {
-// 		message.reply(hyperlink('discord.js', 'https://discord.js.org/'));
-// 		message.channel.send(hideLinkEmbed('https://discord.js.org/'));
-// 		message.channel.send(userMention('1010465672507162634'));
-// 		console.log("pong");
-// 		client.channels.cache.get('1010465672507162634').send({ "content": "pong", "embeds": [exampleEmbed] });
-// 		client.users.cache.get('1015062677216825384').send("pong");
-// 	}
-// });
 
 const prefix = '!!'
  client.on('messageCreate', message => {

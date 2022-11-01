@@ -2,6 +2,7 @@ const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const client = new Client({
 	intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildVoiceStates]
 });
+
 require('dotenv').config();
 const { tsuchichan } = process.env;
 client.login(process.env.tsuchichan);
@@ -22,6 +23,22 @@ client.on('guildMemberRemove', member => {
 	member.guild.channels.cache.get('992123731277258935').send({ 'embeds': [goodbyeEmbed] });
 	console.log(`${member.guild.name}から${member.user.username}が退出したよ`);
 })
+
+// BOOTHにメッセージが送信されたら@everyoneでアクティビティに通知
+// client.on('messageCreate', message => {
+// 	if (message.author.bot || message.system) {
+// 		return;
+// 	} else if(message.){
+// 		message.reply(hyperlink('discord.js', 'https://discord.js.org/'));
+// 		message.channel.send(hideLinkEmbed('https://discord.js.org/'));
+// 		message.channel.send(userMention('1010465672507162634'));
+// 		console.log("pong");
+// 		client.channels.cache.get('1010465672507162634').send({ "content": "pong", "embeds": [exampleEmbed] });
+// 		client.users.cache.get('1015062677216825384').send("pong");
+// 	}
+// });
+
+
 
 //vcState update
 client.on('voiceStateUpdate', (oldState, newState) => {
