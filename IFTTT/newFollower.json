@@ -5,12 +5,17 @@
       "description": "<<< {{About}} >>>",
       "url": "<<< {{LinkToProfile}} >>>",
       "color": 10092543,
+      "footer": {
+        "text": "<<< {{Location}} >>>",
+        "icon_url": "https://cdn.discordapp.com/attachments/993825189416665118/1041403153742053467/ic_room_white_48dp.png"
+      },
       "thumbnail": {
-        "url": "<<< {{UserImageUrl}} >>>",
+        "url": "<<< {{UserImageUrl}} >>>"
+      },
       "author": {
-        "name": "@Qiita",
-        "url": "https://qiita.com/Qiita"
-        }
+        "name": "New Follower",
+        "url": "<<< {{LinkToProfile}} >>>",
+        "icon_url": "https://cdn.discordapp.com/attachments/993825189416665118/1041404121896456232/ic_assignment_ind_white_48dp.png"
       }
     }
   ]
