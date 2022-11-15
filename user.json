@@ -1,61 +1,66 @@
-Type
->>> :dog2:@Partner```ユリフリで適度に活動する```:rabbit:@Listener```ユリフリを身軽に活用する```:owl:@Visitor```ユリフリで気楽に過ごす```
+:ic_bookmark_outline_white_48dp:Type
+:dog2:@Partner
+`ユリフリで適度に活動する`
+:rabbit:@Listener
+`ユリフリを身軽に活用する`
+:owl:@Visitor
+`ユリフリで気楽に過ごす`
 
-Roles
->>> :star2:@ライバー
+:ic_bookmark_outline_white_48dp:Roles
+:star2:@ライバー
 :art:@絵師
 :scissors:@動画編集
 :ice_cube:@3Dデザイナー
-:radioactive:@2Dデザイナー
+:radioactive:@グラフィッカー
 :dvd:@歌い手
 :parking:@ボカロP
 :musical_keyboard:@作曲
 :leaves:@作詞
 
-License
-> @Member専用
-> :t_rex:@Staff
-> :wrench:@YouTubeMod
-> :key:@TwitterMod
+:ic_bookmark_outline_white_48dp:License
+`@Member only`
+:t_rex:@Staff
+:wrench:@YouTubeMod
+:key:@TwitterMod
 
-Bot
->>> :gear:@botOP TO #インプット
+:ic_bookmark_outline_white_48dp:Bot
+:gear:@botOP TO #インプット
 
-Status
->>> ライバー向け
+:ic_bookmark_outline_white_48dp:Status
+`Vtuber`
 :revolving_hearts:@コラボ募集
 :axe:@凸待ち中
 
-クリエイター向け
+`Creator`
 :vibration_mode:@リクエスト募集
 :mobile_phone_off:@リクエスト停止
 :package:@出品中
 :hourglass_flowing_sand:@制作中
 
-クライアント向け
+`Client`
 :triangular_flag_on_post:@制作依頼中
 
-Receives
->>> 人気タグの自動取得
+:ic_bookmark_outline_white_48dp:Feed
+`バズツイの自動取得`
 :orange_heart:@新人Vfeed
 :yellow_heart:@Vと繋がりたいfeed
 :purple_heart:@V募集feed
 :blue_heart:@V素材feed
 :green_heart:@制作依頼feed
 
-Badge
->>> :crossed_swords:@ガチ勢
+:ic_bookmark_outline_white_48dp:Badge
+:crossed_swords:@ガチ勢
 :balloon:@エンジョイ勢
 :beginner:@初心者
 :pill:@ヘルプ TO #🤍相談
 
-YouTube
->>> :canned_food:@200subscriber
+:ic_bookmark_outline_white_48dp:YouTube
+:canned_food:@200subscriber
 :pretzel:@100subscriber
 :candy:@50subscriber
 
-Twitter
->>> :doughnut:@3000follower 
+:ic_bookmark_outline_white_48dp:Twitter
+:doughnut:@3000follower 
 :salad:@2000follower
 :shaved_ice:@1000follower
 :egg:@500follower
@@ -64,61 +69,76 @@ Twitter
 {"title":"Profile","description":"[こちら](https://docs.google.com/forms/d/e/1FAIpQLSdCTWLxsU0ezwpmfBimHY89WL7x7oGBeWu4D3OLe9SnRZQgPg/viewform?usp=pp_url&entry.1151304886=%E4%BE%8B%0A%E9%85%8D%E4%BF%A1:%23%0A%E3%83%95%E3%82%A1%E3%83%B3%E3%82%A2%E3%83%BC%E3%83%88:%23&entry.692858119=%E9%85%8D%E4%BF%A1&entry.941053599=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.1371169874=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.1771506502=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.1453325687=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.579253767=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.674291266=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84)で<#993097895928668161>を作成できます。","color":10092543}
 
 !cembed #🪪ユーザ設定
-{"title":"Index","description":"[Type](https://discord.com/channels/960448632233005096/999686684276969632/1031465986089570324)\n[Roles](https://discord.com/channels/960448632233005096/999686684276969632/1031466046265245776)\n[License](https://discord.com/channels/960448632233005096/999686684276969632/1031466078305521674)\n[Bot](https://discord.com/channels/960448632233005096/999686684276969632/1031466100027826177)\n[Status](https://discord.com/channels/960448632233005096/999686684276969632/1031466123184582666)\n[Receives](https://discord.com/channels/960448632233005096/999686684276969632/1031466198086467634)\n[Badge](https://discord.com/channels/960448632233005096/999686684276969632/1031466331964461099)\n[YouTube](https://discord.com/channels/960448632233005096/999686684276969632/1031466359902707773)\n[Twitter](https://discord.com/channels/960448632233005096/999686684276969632/1031466384183529524)\n[Profile](https://discord.com/channels/960448632233005096/999686684276969632/1031466789621731338)","color":10092543}
+{"title":"Index","description":"
+:ic_done_white_48dp:[Type](https://discord.com/channels/960448632233005096/999686684276969632/1041661067853578301)
+:ic_done_white_48dp:[Roles](https://discord.com/channels/960448632233005096/999686684276969632/1041661154415616061)
+:ic_done_white_48dp:[License](https://discord.com/channels/960448632233005096/999686684276969632/1041661185638019113)
+:ic_done_white_48dp:[Bot](https://discord.com/channels/960448632233005096/999686684276969632/1041661214482251846)
+:ic_done_white_48dp:[Status](https://discord.com/channels/960448632233005096/999686684276969632/1041661237655769118)
+:ic_done_white_48dp:[Feed](https://discord.com/channels/960448632233005096/999686684276969632/1041661354416816128)
+:ic_done_white_48dp:[Badge](https://discord.com/channels/960448632233005096/999686684276969632/1041661375803568209)
+:ic_done_white_48dp:[YouTube](https://discord.com/channels/960448632233005096/999686684276969632/1041661398951927819)
+:ic_done_white_48dp:[Twitter](https://discord.com/channels/960448632233005096/999686684276969632/1041661420774883348)
+:ic_done_white_48dp:[Profile](https://discord.com/channels/960448632233005096/999686684276969632/1041661567571341312)",
+"color":10092543}
 
 
-!rr addmany #🪪ユーザ設定 1031465986089570324
+!rr addmany #🪪ユーザ設定 1041661067853578301
 :dog2: @Partner
 :rabbit: @Listener
 :owl: @Visitor
 
-!rr addmany #🪪ユーザ設定 1031466046265245776
+!rr addmany #🪪ユーザ設定 1041661154415616061
 :star2: @ライバー
 :art: @絵師
 :scissors: @動画編集
 :ice_cube: @3Dデザイナー
-:radioactive: @2Dデザイナー
+:radioactive: @グラフィッカー
 :dvd: @歌い手
 :parking: @ボカロP
 :musical_keyboard: @作曲
 :leaves: @作詞
 
-!rr addmany #🪪ユーザ設定 1031466078305521674
+!rr addmany #🪪ユーザ設定 1041661185638019113
 :t_rex: @Staff
 :wrench: @YouTubeMod
 :key: @TwitterMod
 
-!rr addmany #🪪ユーザ設定 1031466100027826177
+!rr addmany #🪪ユーザ設定 1041661214482251846
 :gear: @botOP
 
-!rr addmany #🪪ユーザ設定 1031466123184582666
+!rr addmany #🪪ユーザ設定 1041661237655769118
 :revolving_hearts: @コラボ募集
 :axe: @凸待ち中
+
+!rr addmany #🪪ユーザ設定 1041661300536791132
 :vibration_mode: @リクエスト募集
 :mobile_phone_off: @リクエスト停止
 :package: @出品中
 :hourglass_flowing_sand: @制作中
+
+!rr addmany #🪪ユーザ設定 1041661326591803503
 :triangular_flag_on_post: @制作依頼中
 
-!rr addmany #🪪ユーザ設定 1031466198086467634
+!rr addmany #🪪ユーザ設定 1041661354416816128
 :orange_heart: @新人Vfeed
 :yellow_heart: @Vと繋がりたいfeed
 :purple_heart: @V募集feed
 :blue_heart: @V素材feed
 :green_heart: @制作依頼feed
 
-!rr addmany #🪪ユーザ設定 1031466331964461099
+!rr addmany #🪪ユーザ設定 1041661375803568209
 :crossed_swords: @ガチ勢
 :balloon: @エンジョイ勢
 :beginner: @初心者
 :pill: @ヘルプ
 
-!rr addmany #🪪ユーザ設定 1031466359902707773
+!rr addmany #🪪ユーザ設定 1041661398951927819
 :canned_food: @200subscriber
 :pretzel: @100subscriber
 :candy: @50subscriber
 
-!rr addmany #🪪ユーザ設定 1031466384183529524
+!rr addmany #🪪ユーザ設定 1041661420774883348
 :doughnut: @3000follower
 :salad: @2000follower
 :shaved_ice: @1000follower
