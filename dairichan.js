@@ -70,3 +70,206 @@ client.on('guildMemberAdd', member => {
 
 
 // curl -H 'Content-Type:application/json' "$DISCORD_WEBHOOK_URL" -d '{"content": "hello"}'
+
+
+{"fields":[{"name":"🔗","value":"[YouTube](https://www.youtube.com/channel/UCliZ7CIZnFZ5b52m5WhKy8A)\n","inline":true},{"name":"🔗","value":"[Twitter](https://twitter.com/ulyssesFree_vt)","inline":true}],"title":"成瀬:butterfly:✨","description":"2008年ロサンゼルスへ単身渡米。その後、全米、ヨーロッパ、中東、東南アジア、太陽系内外を旅しながら、出自の謎を明らかにすべく、各地でUMA捕獲プロジェクトを数多く手掛ける。帰国後、仮想空間の存在に感銘を受けたことにより、グループ設立を決意する。2022年よりバーチャルライバーグループ「ユリシスフリー」を旗揚げする。「インターネットのすべてを私の手に」をビジョンに掲げ、個性あふれるライバー・クリエイターと共に「ユリフリ」のさらなる発展を企てる。各惑星の文化やコミュニティで磨かれた多様な感性でグループを導く存在。","image":{"url":"https://cdn.discordapp.com/attachments/993825189416665118/1005677988815323166/9988.jpg"},"color":10092543,"footer":{"icon_url":"","text":"なるせ 社長"}}
+
+{"fields":[{"name":"🔗","value":"[YouTube](https://www.youtube.com/channel/UCV8GoEPab6VfiEx6Pd8IEnQ) ","inline":true},{"name":"🔗","value":"[Twitter](https://twitter.com/cafedead_v)","inline":true}],"title":"CAFEDEAD☕🕰️","description":"寝る間を惜しんで遊びたいです。誰がなんと言おうとも絶対に不眠です。","image":{"url":"https://cdn.discordapp.com/attachments/993825189416665118/1011954879654273024/7.png"},"color":3350313,"footer":{"icon_url":"","text":"かふぇでっど 運営 動画編集 M 22 0222 #CAFELIVE"}}
+
+{"fields":[{"name":"Games","value":":ic_done_white_48dp:GTA\n:ic_done_white_48dp:Minecraft BE\netc.","inline":false},{"name":"YouTube","value":"[:ic_explore_white_48dp:](https://www.youtube.com/channel/UCBIthlHTY8oJ86iRltFBrHA)[here](https://www.youtube.com/channel/UCBIthlHTY8oJ86iRltFBrHA)","inline":true},{"name":"Twitter","value":"[:ic_explore_white_48dp:](https://twitter.com/kageri_haku)[here](https://twitter.com/kageri_haku)","inline":true},{"name":"Mirrativ","value":"[:ic_explore_white_48dp:](https://mirrativ.page.link/?link=https%3A%2F%2Fwww.mirrativ.com%2Fuser%2F100883588%3Fwhere%3Dprofile&apn=com.dena.mirrativ&ibi=com.dena.mirrativ&isi=1028944599&ius=mirrativ&st=%E5%BD%B1%E7%99%BD&sd=VERTEC%20community%E6%89%80%E5%B1%9E%E3%81%AEVtuber%E3%81%A7%E3%81%99%E3%80%82&si=https%3A%2F%2Fcdn.mirrativ.com%2Fmirrorman-prod%2Fimage%2Fprofile_image%2F13019d4f0a1a6e6cd12820e8fcfe77ad590d203d4df0ded31f05ec789679ad7a_m.jpeg%3F1659886333)[here](https://mirrativ.page.link/?link=https%3A%2F%2Fwww.mirrativ.com%2Fuser%2F100883588%3Fwhere%3Dprofile&apn=com.dena.mirrativ&ibi=com.dena.mirrativ&isi=1028944599&ius=mirrativ&st=%E5%BD%B1%E7%99%BD&sd=VERTEC%20community%E6%89%80%E5%B1%9E%E3%81%AEVtuber%E3%81%A7%E3%81%99%E3%80%82&si=https%3A%2F%2Fcdn.mirrativ.com%2Fmirrorman-prod%2Fimage%2Fprofile_image%2F13019d4f0a1a6e6cd12820e8fcfe77ad590d203d4df0ded31f05ec789679ad7a_m.jpeg%3F1659886333)","inline":true}],"title":"影白","description":"高校風グダグダ系Vtuber。好きなゲームを好きなように配信している。というのは表の設定で、裏では異世界転生して人生を謳歌していたりする。","thumbnail":{"url":"https://cdn.discordapp.com/avatars/678832424628650004/24d73608e72b8346c14c7c8b7670e460.webp?size=1024"},"color":845036,"footer":{"icon_url":"https://cdn.discordapp.com/attachments/993825189416665118/1041404121896456232/ic_assignment_ind_white_48dp.png","text":"かげり はく Vtuber M 19 0113"}}
+
+
+{
+  "username": "Qiitaさん",
+  "avatar_url": "https://github.com/qiita.png",
+  "content": "オススメの記事です！",
+  "embeds": [
+    {
+      "title": "Markdown記法 チートシート",
+      "description": "Markdown記法のチートシートです。本ページではQiitaで使用可能なMarkdownのみ掲載しているため、一部原文と異なります。Markdownの原文については、Daring Fireball: Markdown Syntax Documentationをご覧下さい。...",
+      "url": "https://qiita.com/Qiita/items/c686397e4a0f4f11683d",
+      "timestamp":"2018-04-09T00:00:00+09:00",
+      "color": 5620992,
+      "footer": {
+        "text": "© 2011-2018 Increments Inc.",
+        "icon_url": "https://github.com/increments.png"
+      },
+      "image": {
+        "url": "http://lorempixel.com/400/200/cats/"
+      },
+      "thumbnail": {
+        "url": "https://github.com/qiita.png"
+      },
+      "author": {
+        "name": "@Qiita",
+        "url": "https://qiita.com/Qiita",
+        "icon_url": "https://qiita-image-store.s3.amazonaws.com/0/88/profile-images/1512392618"
+      },
+      "fields": [
+        {
+          "name": ":thumbsup:いいね",
+          "value": "6353",
+          "inline":true
+        },
+        {
+          "name": ":file_folder:ストック",
+          "value": "999",
+          "inline":true
+        },
+        {
+          "name": ":bookmark_tabs:タグ",
+          "value": "Qiita, Markdown"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+:ic_label_white_48dp:Type
+:dog:@Partner
+`ユリフリで適度に活動する`
+:cat:@Guest
+`ユリフリを身軽に活用する`
+:rabbit:@Listener
+`ユリフリで気楽に過ごす`
+
+:ic_label_white_48dp:Roles
+:star2:@Vtuber
+:art:@絵師
+:scissors:@動画編集
+:ice_cube:@3Dデザイナー
+:radioactive:@グラフィッカー
+:dvd:@歌い手
+:parking:@ボカロP
+:musical_keyboard:@作曲
+:leaves:@作詞
+
+:ic_label_white_48dp:License
+`@Member only`
+:t_rex:@Staff
+:wrench:@YouTubeMod
+:key:@TwitterMod
+
+:ic_label_white_48dp:Status
+`Vtuber`
+:revolving_hearts:@コラボ募集
+:axe:@凸待ち中
+
+`Creator`
+:vibration_mode:@リクエスト募集
+:mobile_phone_off:@リクエスト停止
+:package:@出品中
+:hourglass_flowing_sand:@制作中
+
+`Client`
+:triangular_flag_on_post:@制作依頼中
+
+:ic_label_white_48dp:Feed
+`バズツイの自動取得`
+:orange_heart:@新人Vfeed
+:yellow_heart:@Vと繋がりたいfeed
+:purple_heart:@V募集feed
+:blue_heart:@V素材feed
+:green_heart:@制作依頼feed
+
+:ic_label_white_48dp:Badge
+:gear:@botOP TO #📟コンソール
+:pill:@ヘルプ TO #🤍相談
+:warning:@R18 TO #🌙nsfw
+:beginner:@初心者
+:balloon:@エンジョイ勢
+:crossed_swords:@ガチ勢
+
+:ic_label_white_48dp:YouTube
+:canned_food:@200subscriber
+:pretzel:@100subscriber
+:candy:@50subscriber
+
+:ic_label_white_48dp:Twitter
+:doughnut:@3000follower 
+:salad:@2000follower
+:shaved_ice:@1000follower
+:egg:@500follower
+
+!cembed #🪪ユーザ設定
+{"title":"Profile","description":"[こちら](https://docs.google.com/forms/d/e/1FAIpQLSdCTWLxsU0ezwpmfBimHY89WL7x7oGBeWu4D3OLe9SnRZQgPg/viewform?usp=pp_url&entry.1151304886=%E4%BE%8B%0A%E9%85%8D%E4%BF%A1:%23%0A%E3%83%95%E3%82%A1%E3%83%B3%E3%82%A2%E3%83%BC%E3%83%88:%23&entry.692858119=%E9%85%8D%E4%BF%A1&entry.941053599=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.1371169874=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.1771506502=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.1453325687=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.579253767=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84&entry.674291266=%E5%90%AB%E3%81%BE%E3%81%AA%E3%81%84)で<#993097895928668161>を作成できます。","color":10092543}
+
+!cembed #🪪ユーザ設定
+{"title":"Index","description":"
+:ic_visibility_white_48dp:[Type](https://discord.com/channels/960448632233005096/999686684276969632/1043557994031489024)
+:ic_visibility_white_48dp:[Roles](https://discord.com/channels/960448632233005096/999686684276969632/1043558043805306960)
+:ic_visibility_white_48dp:[License](https://discord.com/channels/960448632233005096/999686684276969632/1043558078873882785)
+:ic_visibility_white_48dp:[Status](https://discord.com/channels/960448632233005096/999686684276969632/1043558114135396493)
+:ic_visibility_white_48dp:[Feed](https://discord.com/channels/960448632233005096/999686684276969632/1043558232603492393)
+:ic_visibility_white_48dp:[Badge](https://discord.com/channels/960448632233005096/999686684276969632/1043558295664865352)
+:ic_visibility_white_48dp:[YouTube](https://discord.com/channels/960448632233005096/999686684276969632/1043558347342884974)
+:ic_visibility_white_48dp:[Twitter](https://discord.com/channels/960448632233005096/999686684276969632/1043558379890692096)
+:ic_visibility_white_48dp:[Profile](https://discord.com/channels/960448632233005096/999686684276969632/1043558419380047932)",
+"color":10092543}
+
+
+!rr addmany #🪪ユーザ設定 1043557994031489024
+:dog: @Partner
+:cat: @Guest
+:rabbit: @Listener
+
+!rr addmany #🪪ユーザ設定 1043558043805306960
+:star2: @Vtuber
+:art: @絵師
+:scissors: @動画編集
+:ice_cube: @3Dデザイナー
+:radioactive: @グラフィッカー
+:dvd: @歌い手
+:parking: @ボカロP
+:musical_keyboard: @作曲
+:leaves: @作詞
+
+!rr addmany #🪪ユーザ設定 1043558078873882785
+:t_rex: @Staff
+:wrench: @YouTubeMod
+:key: @TwitterMod
+
+!rr addmany #🪪ユーザ設定 1043558114135396493
+:revolving_hearts: @コラボ募集
+:axe: @凸待ち中
+
+!rr addmany #🪪ユーザ設定 1043558140131680377
+:vibration_mode: @リクエスト募集
+:mobile_phone_off: @リクエスト停止
+:package: @出品中
+:hourglass_flowing_sand: @制作中
+
+!rr addmany #🪪ユーザ設定 1043558196381491220
+:triangular_flag_on_post: @制作依頼中
+
+!rr addmany #🪪ユーザ設定 1043558232603492393
+:orange_heart: @新人Vfeed
+:yellow_heart: @Vと繋がりたいfeed
+:purple_heart: @V募集feed
+:blue_heart: @V素材feed
+:green_heart: @制作依頼feed
+
+!rr addmany #🪪ユーザ設定 1043558295664865352
+:gear: @botOP
+:pill: @ヘルプ
+:warning: @R18
+:beginner: @初心者
+:crossed_swords: @ガチ勢
+:balloon: @エンジョイ勢
+
+!rr addmany #🪪ユーザ設定 1043558347342884974
+:canned_food: @200subscriber
+:pretzel: @100subscriber
+:candy: @50subscriber
+
+!rr addmany #🪪ユーザ設定 1043558379890692096
+:doughnut: @3000follower
+:salad: @2000follower
+:shaved_ice: @1000follower
+:egg: @500follower
