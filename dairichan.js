@@ -7,7 +7,7 @@ const client = new Client({
 		GatewayIntentBits.MessageContent,
 		GatewayIntentBits.DirectMessages,]
 });
-
+ 
 require('dotenv').config();
 const { dairichan } = process.env;
 
