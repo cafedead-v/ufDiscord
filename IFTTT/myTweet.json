@@ -4,7 +4,7 @@
       "description": "<<< {{Text}} >>>",
       "color": 10092543,
       "author": {
-        "name": "New Tweet",
+        "name": "My Tweet",
         "url": "<<< {{LinkToTweet}} >>>",
         "icon_url": "https://cdn.discordapp.com/attachments/993825189416665118/1046452556353765436/logo_ulyfly_gen3.png"
       }
