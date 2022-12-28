@@ -1,14 +1,12 @@
 {
   "embeds": [
     {
-      "title": "<<< {{UserName}} >>>",
       "description": "<<< {{Text}} >>>",
-      "url": "<<< {{LinkToTweet}} >>>",
       "color": 10092543,
       "author": {
         "name": "New Tweet",
         "url": "<<< {{LinkToTweet}} >>>",
-        "icon_url": "https://cdn.discordapp.com/attachments/993825189416665118/1011111438988882010/20220809_180334_0000.png"
+        "icon_url": "https://cdn.discordapp.com/attachments/993825189416665118/1046452556353765436/logo_ulyfly_gen3.png"
       }
     }
   ]

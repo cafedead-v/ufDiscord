@@ -70,11 +70,7 @@ __:ic_track_changes_white_48dp:もっとみる__
 [:ic_get_app_white_48dp:](https://drive.google.com/drive/folders/1H5zW-gcWPB429dgmQxoOUy9X5-9UT8zF?usp=sharing)[共有素材](https://drive.google.com/drive/folders/1H5zW-gcWPB429dgmQxoOUy9X5-9UT8zF?usp=sharing)を探す
 [:ic_explore_white_48dp:](https://discord.com/channels/960448632233005096/1023412641915490364/1047051140648415262)[Minecraft](https://discord.com/channels/960448632233005096/1023412641915490364/1047051140648415262)で遊ぶ
 
-__:ic_track_changes_white_48dp:カテゴリ別のサーバーマップ__
-準備中
 
-__:ic_track_changes_white_48dp:よくある質問__
-準備中
 
 //profile
 if(command === 'profile'){
@@ -150,13 +146,6 @@ if(command === 'profile'){
   :salad:@3000follower
   :shaved_ice:@2000follower
   
-  :ic_reorder_white_48dp:バズツイ受信
-  :orange_heart:@新人Vfeed
-  :yellow_heart:@Vと繋がりたいfeed
-  :purple_heart:@V募集feed
-  :blue_heart:@V素材feed
-  :green_heart:@制作依頼feed
-  
   :ic_reorder_white_48dp:アクセス権限
   :gear:@botOP : #📟コンソール
   :warning:@R18 : #🌙nsfw
@@ -171,7 +160,6 @@ if(command === 'profile'){
   :ic_label_white_48dp:[ロール](https://discord.com/channels/960448632233005096/999686684276969632/1047066759829667890)
   :ic_label_white_48dp:[ステータス](https://discord.com/channels/960448632233005096/999686684276969632/1047066789470818334)
   :ic_label_white_48dp:[バッジ](https://discord.com/channels/960448632233005096/999686684276969632/1047066854205694003)
-  :ic_label_white_48dp:[バズツイ受信](https://discord.com/channels/960448632233005096/999686684276969632/1047066880214564864)
   :ic_label_white_48dp:[アクセス権限](https://discord.com/channels/960448632233005096/999686684276969632/1047066908857479199)
   :ic_label_white_48dp:[プロフィール作成](https://discord.com/channels/960448632233005096/999686684276969632/1047066987534221342)",
   "color":10092543}
@@ -209,12 +197,7 @@ if(command === 'profile'){
   :shaved_ice: @3000follower
   :egg: @2000follower
   
-  !rr addmany #🪪ユーザ設定 1047066880214564864
-  :orange_heart: @新人Vfeed
-  :yellow_heart: @Vと繋がりたいfeed
-  :purple_heart: @V募集feed
-  :blue_heart: @V素材feed
-  :green_heart: @制作依頼feed
+
   
   !rr addmany #🪪ユーザ設定 1047066908857479199
   :gear: @botOP
@@ -316,15 +299,15 @@ if(command === 'profile'){
 //   ]
 // }
 
-!embedsource 1043888352656633886 test
-!cembed test {
-    "fields":[
-    ],
-    "color":10092543,
-    "type":"rich",
-    "description":"\u5f8c\u4e16\u306b\u8a9e\u308a\u7d99\u304e\u305f\u3044\u30e1\u30c3\u30bb\u30fc\u30b8\u306f\u30d4\u30f3\u7559\u3081\u3057\u3066\u304f\u3060\u3055\u3044\u3002https://docs.carl.gg/utilities/embeds/\n\n[aaa](https://docs.carl.gg/utilities/embeds/)",
-    "title":"README"
-}
-!role color 作曲 #DFFF69
-!rr color test 1043888352656633886 #aaaaaa
-!embed 99ffff Index | Contents
+// !embedsource 1043888352656633886 test
+// !cembed test {
+//     "fields":[
+//     ],
+//     "color":10092543,
+//     "type":"rich",
+//     "description":"\u5f8c\u4e16\u306b\u8a9e\u308a\u7d99\u304e\u305f\u3044\u30e1\u30c3\u30bb\u30fc\u30b8\u306f\u30d4\u30f3\u7559\u3081\u3057\u3066\u304f\u3060\u3055\u3044\u3002https://docs.carl.gg/utilities/embeds/\n\n[aaa](https://docs.carl.gg/utilities/embeds/)",
+//     "title":"README"
+// }
+// !role color 作曲 #DFFF69
+// !rr color test 1043888352656633886 #aaaaaa
+// !embed 99ffff Index | Contents
